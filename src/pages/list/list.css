@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+.list-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.list-wrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+.list-search{
+    flex: 1;
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+.list-result{
+    flex:3;
+}
+.ls-title{
+    font-size: 20px;
+    color: #302f2f;
+    margin-bottom: 10px;
+}
+.ls-item{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-bottom: 10px;
+}
+.ls-item>label{
+    font-size: 12px;
+}
+.ls-item>input{
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+.ls-item>span{
+    height: 40px;
+    background-color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+.ls-options-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.ls-options-item>input{
+    width: 40px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.list-search>button{
+    color: white;
+    border: none;
+    padding: 10px;
+    background-color: #0071c2;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}

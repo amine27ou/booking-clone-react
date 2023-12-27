@@ -1,0 +1,24 @@
+
+.featured{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-text-stroke-width: 100%;
+    max-width: 1024px;
+    gap: 20px;
+}
+.featured-img{
+    width: 100%;
+    object-fit: cover;
+}
+.featured-item{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+.featured-titles{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}

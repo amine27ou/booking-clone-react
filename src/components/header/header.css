@@ -1,0 +1,115 @@
+.header{
+    background-color: #013A95;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+}
+.header-container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0 100px 0;
+}
+.header-list{
+    display: flex;
+    gap: 40px;
+}
+.header-list-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.header-list-item.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.header-title{
+    margin-top: 20px ;
+}
+.header-desc{
+    margin: 10px 0;
+}
+.header-search{
+    height: 50px;
+    background-color: white;
+    border: 3px solid rgb(255, 179, 0);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: space-around;
+    padding: 10px ;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+.header-search-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-search-input{
+    border: none;
+    outline: none;
+}
+.header-icon{
+    color: lightgray;
+}
+.header-search-text{
+    color: lightgray;
+}
+.date{
+    position: absolute;
+    top: 50px;
+    box-shadow: 0 0 10px #ccc;
+    z-index: 2;
+}
+.header-search-btn{
+    color: white;
+    background-color: #013A95;
+    padding:  10px;
+    border: none;
+    cursor: pointer;
+}
+.options{
+    background-color: white;
+    padding: 8px;
+    color: black;
+    box-shadow:  0 0 6px #ccc;
+    border-radius: 9px;
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+.option-item{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.option-counter{
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+.option-counter-btn{
+    border: none;
+    height: 30px;
+    width: 30px;
+    color: #0071c2;
+    cursor: pointer;
+    background-color: white;
+}
+.option-counter-btn:disabled{
+    cursor: not-allowed;
+}
+.header-container.list{
+    margin: 20px 0 10px 0 ;
+}

@@ -1,0 +1,76 @@
+.search-result-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 30px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.search-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+}
+.search-details .rating-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.se-title{
+    color: #0071ce;
+}
+.se-distance{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.taxi-op{
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+.se-desciption{
+    font-weight: bold;
+}
+.se-cancel-op{
+    color: green;
+    font-weight: bold;
+}
+.se-cancel-op-text{
+    color: green;
+}
+.state{
+    font-weight: bold;
+}
+.rating{
+    color: white;
+    background-color: rgb(1, 1, 172);
+    color: white;
+    padding: 3px;
+}
+.price{
+    font-size: 30px;
+}
+.taxes{
+    color: grey;
+}
+.price-info>button{
+    color: white;
+    background-color: #0071ce;
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-result-container p{
+    margin: 5px 0;
+}
